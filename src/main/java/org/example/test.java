@@ -1,3 +1,7 @@
+package org.example;
 
-Class Test{
+import test.*;
+
+public class Test {
+
 }
