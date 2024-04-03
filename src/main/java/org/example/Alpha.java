@@ -2,6 +2,6 @@ package org.example;
 
 import test.*;
 
-public class Test {
+public class Alpha {
 
 }
