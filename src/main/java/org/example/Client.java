@@ -1,23 +1,12 @@
 package org.example;
 
 public class Client {
-    private final Service service;
-
-    public Client(Service service) {
-        this.service = service;
+   public static void main(String[] args) {
+        Client client = new Client();
+        client.testAssertion(); // Calling the method to trigger assertion
     }
 
-    public String greeting(String name) {
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("'name' must not be null or empty");
-        }
-
-        boolean even = service.isEven(name.length());
-        String greeting = "Hello, %s".formatted(name);
-        if (even) {
-            return greeting.toUpperCase();
-        } else {
-            return greeting;
-        }
+    public void testAssertion() {
+        assert false : "Assertion failed";
     }
 }
