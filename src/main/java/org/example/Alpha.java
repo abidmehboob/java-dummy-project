@@ -1,13 +1,14 @@
 package org.example;
 
 public class Alpha {
-   public static void main(String[] args) {
-        Alpha alpha = new Alpha();
-        alpha.testAssertion(); // Calling the method to trigger assertion
+ private boolean condition;
+
+    public Alpha(boolean condition) {
+        this.condition = condition;
     }
 
-    public void testAssertion() {
-        assert false : "Assertion failed";
+    public boolean isCondition() {
+        return condition;
     }
 
 }
