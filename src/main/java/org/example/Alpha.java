@@ -6,5 +6,8 @@ public class Alpha {
      public boolean isCondition() {
         return condition;
     }
+  private boolean isPrivate() {
+        return condition;
+    }
 
 }
