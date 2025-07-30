@@ -1,0 +1,16 @@
+```java
+package com.example.javadummyproject;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class MainTest {
+
+    @Test
+    void testMain() {
+        String[] args = {};
+        Main.main(args);
+        assertEquals("Hello, world!", System.out.println());
+    }
+}
+```
