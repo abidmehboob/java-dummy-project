@@ -1,5 +1,7 @@
 package org.example;
 
+// ANSITEST: é
+
 /**
  * Small utility that provides a method to add two numbers.
  * Implemented using double so it accepts integer or floating inputs.
